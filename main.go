@@ -5,6 +5,7 @@ import (
 
 	jlog "github.com/andrew-j-price/journey/logger"
 	"github.com/andrew-j-price/journey/random"
+	"syreclabs.com/go/faker"
 )
 
 func init() {
@@ -18,4 +19,11 @@ func main() {
 
 	// cannot call non-function logger.Info (type *log.Logger)
 	// logger.Info("Hi")
+
+	something()
+}
+
+func something() {
+	name := faker.Name().FirstName()
+	fmt.Printf("Random name: %v\n\n", name)
 }
