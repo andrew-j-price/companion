@@ -12,4 +12,9 @@ go run .
 # setup
 go mod init companion
 go get github.com/andrew-j-price/journey
+
+
+# download reference
+ls -la ~/go/pkg/mod/github.com/andrew-j-price/journey@v0.0.0-20211125164502-77b624a91d60/
+
 ```
