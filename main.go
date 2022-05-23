@@ -5,6 +5,7 @@ import (
 
 	jlog "github.com/andrew-j-price/journey/logger"
 	"github.com/andrew-j-price/journey/random"
+	"syreclabs.com/go/faker"
 )
 
 func init() {
@@ -12,10 +13,14 @@ func init() {
 }
 
 func main() {
+	// Running various functions just to test integrations
+	jlog.Info.Println("Companion logging")
 	fmt.Println("Hello, gopher")
-
 	random.RandomGreetingMain()
+	something()
+}
 
-	// cannot call non-function logger.Info (type *log.Logger)
-	// logger.Info("Hi")
+func something() {
+	name := faker.Name().FirstName()
+	fmt.Printf("Random name: %v\n\n", name)
 }

@@ -1,2 +1,6 @@
-github.com/andrew-j-price/journey v0.0.0-20211125164502-77b624a91d60 h1:cTKdV+rBYbjmJCgOwmCvqlnFiWdceRXVin9d3e8D8dI=
-github.com/andrew-j-price/journey v0.0.0-20211125164502-77b624a91d60/go.mod h1:bapvqut8ziLnQBE4+yXSnkB7ZTuYUSLXy9KFpBQDUCU=
+github.com/andrew-j-price/journey v0.2.0 h1:z35bClodzfCsh2psGoTtNsb4oHbZcnzD4pzY8gk6lGk=
+github.com/andrew-j-price/journey v0.2.0/go.mod h1:ucycXl93RbqYoM3rGHjem1W0TDIYRLsU8prl9/zKx0g=
+github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
+github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+syreclabs.com/go/faker v1.2.3 h1:HPrWtnHazIf0/bVuPZJLFrtHlBHk10hS0SB+mV8v6R4=
+syreclabs.com/go/faker v1.2.3/go.mod h1:NAXInmkPsC2xuO5MKZFe80PUXX5LU8cFdJIHGs+nSBE=
