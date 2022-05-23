@@ -11,13 +11,13 @@ go run .
 
 # setup
 go mod init companion
-go get github.com/andrew-j-price/journey
+go get -d github.com/andrew-j-price/journey@v0.2.0
 
 # package and reference upkeep
 go mod tidy  # will remove `// indirect` references in `go.mod` if package is incoporated
 
 
 # download reference
-ls -la ~/go/pkg/mod/github.com/andrew-j-price/journey@v0.0.0-20211125164502-77b624a91d60/
+ls -la ~/go/pkg/mod/github.com/andrew-j-price/journey@v0.2.0/
 
 ```

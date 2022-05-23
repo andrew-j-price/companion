@@ -13,13 +13,10 @@ func init() {
 }
 
 func main() {
+	// Running various functions just to test integrations
+	jlog.Info.Println("Companion logging")
 	fmt.Println("Hello, gopher")
-
 	random.RandomGreetingMain()
-
-	// cannot call non-function logger.Info (type *log.Logger)
-	// logger.Info("Hi")
-
 	something()
 }
 
